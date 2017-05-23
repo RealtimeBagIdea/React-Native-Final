@@ -8,7 +8,7 @@
 
 <h2>วิธีใช้งาน</h2><br/>
 1. Login ด้วย Username : Admin, Password : 123456<br/>
-![Alt text](/screenshot/login.jpg?raw=true "Login")
+<img src="/screenshot/login.jpg?raw=true" alt="Login"></img>
 
 2. เข้ามาหน้า Select Channel, ทำการเลือก Channel Youtube ที่ต้องการได้แก่ Facebook Developer, Bag Idea Studio, Unity3D<br/>
 3. เลือก Video ที่ต้องการ คลิกที่ Feed เพิ่มทำการเปิด link จาก Youtube<br/>
