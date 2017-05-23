@@ -11,11 +11,11 @@
 <img src="/screenshot/login.jpg?raw=true" alt="Login" height="300"></img><br/>
 
 2. เข้ามาหน้า Select Channel, ทำการเลือก Channel Youtube ที่ต้องการได้แก่ Facebook Developer, Bag Idea Studio, Unity3D<br/>
-<img src="/screenshot/select.jpg?raw=true" alt="Select"></img><br/>
+<img src="/screenshot/select.jpg?raw=true" alt="Select" height="300"></img><br/>
 3. เลือก Video ที่ต้องการ คลิกที่ Feed เพิ่มทำการเปิด link จาก Youtube<br/>
-<img src="/screenshot/facebook.jpg?raw=true" alt="Facebook"></img><br/>
-<img src="/screenshot/bagidea.jpg?raw=true" alt="BagIdea"></img><br/>
-<img src="/screenshot/unity.jpg?raw=true" alt="Unity"></img><br/>
+<img src="/screenshot/facebook.jpg?raw=true" alt="Facebook" height="300"></img><br/>
+<img src="/screenshot/bagidea.jpg?raw=true" alt="BagIdea" height="300"></img>
+<img src="/screenshot/unity.jpg?raw=true" alt="Unity" height="300"></img>
 <br/>
 
 <h1>วิธีการติดตั้ง</h1>
