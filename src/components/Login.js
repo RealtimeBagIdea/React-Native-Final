@@ -12,7 +12,7 @@ class Login extends Component {
     }
     checkPass() {
         if ((this.state.username == 'Admin') && (this.state.password === '123456')) {
-            Actions.contentfeed();
+            Actions.select();
         } else {
             Alert.alert(
                 'Username หรือ Password ไม่ถูกต้อง',
@@ -27,7 +27,7 @@ class Login extends Component {
     }
     render() {
         return (
-            <Image source={require('../Images/background-1247931_1920.jpg')}
+            <Image source={require('../Images/background2.jpg')}
                 style={[styles.loginBG, {
                     backgroundColor: 'transparent'
                 }]}>
@@ -37,7 +37,7 @@ class Login extends Component {
                     backgroundColor: 'rgba(0,0,0,0.6)',
                     padding: 20
                 }}>
-                    <Image source={require('../Images/playstore-icon.png')} style={{
+                    <Image source={require('../Images/Logo.png')} style={{
                         width: 150,
                         height: 150,
                         alignSelf:'center',
@@ -46,12 +46,11 @@ class Login extends Component {
                     <View style={{
                         flexDirection: 'row',
                     }}>
-                        <View style={styles.viewHalf}>
-                            <Text style={styles.strongLabel}>Username :</Text>
-                        </View>
                         <View style={styles.view2_3}>
                             <TextInput
                                 placeholder="Username"
+                                placeholderTextColor="#ffffff"
+                                underlineColorAndroid="white"
                                 onChangeText={(username) => this.setState({ username })}
                                 style={styles.loginInput}
                             />
@@ -62,12 +61,11 @@ class Login extends Component {
                         flexDirection: 'row',
                         marginTop: 10
                     }}>
-                        <View style={styles.viewHalf}>
-                            <Text style={styles.strongLabel}>Password :</Text>
-                        </View>
                         <View style={styles.view2_3}>
                             <TextInput
                                 placeholder="Password"
+                                placeholderTextColor="#ffffff"
+                                underlineColorAndroid="white"
                                 onChangeText={(password) => this.setState({ password })}
                                 style={styles.loginInput}
                                 secureTextEntry={true}
@@ -79,13 +77,13 @@ class Login extends Component {
                     <View style={{
                         marginTop: 20
                     }}>
-                        <Button block primary
+                        <Button block primary 
                             onPress={this.checkPass.bind(this)}
                         >
-                            <Icon name="md-contact" />
+                            <Icon name="md-person" />
                             <Text style={{
                                 color: 'white',
-                                fontWeight: 'bold'
+                                fontWeight: 'bold',
                             }}>Login</Text>
                         </Button>
                     </View>
@@ -110,7 +108,8 @@ const styles = StyleSheet.create({
     },
     view2_3: {
         flex: 2,
-        backgroundColor: 'transparent'
+        backgroundColor: 'transparent',
+        borderRadius: 10
     },
     strongLabel: {
         fontWeight: 'bold',
@@ -120,7 +119,9 @@ const styles = StyleSheet.create({
     loginInput: {
         height: 40,
         padding: 10,
-        backgroundColor: 'white'
+        backgroundColor: 'transparent',
+        borderRadius: 5,
+        color: '#ffffff'
     }
 });
 export default Login;

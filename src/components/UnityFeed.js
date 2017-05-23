@@ -4,9 +4,9 @@ import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Rig
 import {Actions} from 'react-native-router-flux';
 
 const apiKey = 'AIzaSyAFYk7Kahr_8n-mTCE29K-x5lv2kgrd1aA';
-const channelID = 'UC-OM4o-9KuhtrIKJTmwAZ9Q';
+const channelID = 'UCG08EqOAXJk_YXPDsAvReSg';
 
-class ContentFeed extends Component {
+class UnityFeed extends Component {
     componentWillMount() {
         this.loadDataJson();
 
@@ -44,7 +44,7 @@ class ContentFeed extends Component {
             <Card >
                 <CardItem>
                     <Left>
-                        <Thumbnail source={{ uri: 'http://s21.postimg.org/i9rer3n5f/302240_274577399243550_137637024_a.jpg' }} />
+                        <Thumbnail source={{ uri: 'https://mir-s3-cdn-cf.behance.net/project_modules/disp/10319312185373.5625895731b04.png' }} />
                         <Body>
                             <TouchableOpacity
                                 onPress={() => Linking.openURL('https://www.youtube.com/watch?v=' + videoId)}
@@ -126,4 +126,4 @@ class ContentFeed extends Component {
     }
 }
 
-export default ContentFeed;
+export default UnityFeed;
