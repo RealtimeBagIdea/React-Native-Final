@@ -1,15 +1,15 @@
 # React-Native-CodeChannel#
 
-<h2>รายชื่อสมาชิกในกลุ่ม</h2>
-นางสาว กฤติยา วุฒิ 57080501604
-นาย ชานนท์ เต็มไชยวณิช 57080501611
-นาย วุฒิพงษ์ มักเจริญ 57080501648
+<h2>รายชื่อสมาชิกในกลุ่ม</h2><br/>
+นางสาว กฤติยา วุฒิ 57080501604<br/>
+นาย ชานนท์ เต็มไชยวณิช 57080501611<br/>
+นาย วุฒิพงษ์ มักเจริญ 57080501648<br/>
 <br/>
 
-<h2>วิธีใช้งาน</h2>
-1. Login ด้วย Username : Admin, Password : 123456
-2. เข้ามาหน้า Select Channel, ทำการเลือก Channel Youtube ที่ต้องการได้แก่ Facebook Developer, Bag Idea Studio, Unity3D
-3. เลือก Video ที่ต้องการ คลิกที่ Feed เพิ่มทำการเปิด link จาก Youtube
+<h2>วิธีใช้งาน</h2><br/>
+1. Login ด้วย Username : Admin, Password : 123456<br/>
+2. เข้ามาหน้า Select Channel, ทำการเลือก Channel Youtube ที่ต้องการได้แก่ Facebook Developer, Bag Idea Studio, Unity3D<br/>
+3. เลือก Video ที่ต้องการ คลิกที่ Feed เพิ่มทำการเปิด link จาก Youtube<br/>
 <br/>
 
 <h1>วิธีการติดตั้ง</h1>
