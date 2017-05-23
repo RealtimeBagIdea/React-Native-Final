@@ -8,7 +8,7 @@
 
 <h2>วิธีใช้งาน</h2><br/>
 1. Login ด้วย Username : Admin, Password : 123456<br/>
-<img src="/screenshot/login.jpg?raw=true" alt="Login"></img><br/>
+<img src="/screenshot/login.jpg?raw=true" alt="Login" height="150"></img><br/>
 
 2. เข้ามาหน้า Select Channel, ทำการเลือก Channel Youtube ที่ต้องการได้แก่ Facebook Developer, Bag Idea Studio, Unity3D<br/>
 <img src="/screenshot/select.jpg?raw=true" alt="Select"></img><br/>
